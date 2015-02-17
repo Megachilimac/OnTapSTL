@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:background="@drawable/brick"
+    android:gravity="left|right" >
+
+    <ImageView
+        android:id="@+id/breweryLogo"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="breweryLogo"
+        android:minHeight="100dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/breweryName"
+        android:layout_width="195dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/breweryLogo"
+        android:text="Brewery Name and Brewery Address"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+         />
+
+<!--     <ImageButton -->
+<!--         android:id="@+id/gearButton" -->
+<!--         android:layout_width="50dp" -->
+<!--         android:layout_height="50dp" -->
+<!--         android:layout_alignBottom="@+id/phoneButton" -->
+<!--         android:layout_alignParentRight="true" -->
+<!--         android:background="@drawable/ab_background_textured_ontap" -->
+<!--         android:src="@drawable/ic_action_settings"  -->
+<!--          android:contentDescription="settings"/> -->
+
+    <ImageButton
+        android:id="@+id/webButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/facebookButton"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/facebookButton"
+        android:src="@drawable/icon_web_50"
+         android:contentDescription="webButton"
+         android:onClick="goToWeb"/>
+       
+    <ImageButton
+        android:id="@+id/locateButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/webButton"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/webButton"
+        android:src="@drawable/icon_map_50" 
+         android:contentDescription="locateButton"
+         android:onClick="goToMap"/>
+
+
+    <ImageButton
+        android:id="@+id/facebookButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/phoneButton"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/phoneButton"
+        android:src="@drawable/icon_facebook_50" 
+        android:contentDescription="facebookButton"
+        android:onClick="goToFacebook"/>
+
+    <ImageButton
+        android:id="@+id/phoneButton"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/breweryLogo"
+        android:contentDescription="phoneButton"
+        android:onClick="goToPhone"
+        android:src="@drawable/icon_call_50" />
+
+</RelativeLayout><!-- From: file:/C:/Users/jmckee/AndroidStudioProjects/OnTapSTL/app/src/main/res/layout/control_brewery.xml -->

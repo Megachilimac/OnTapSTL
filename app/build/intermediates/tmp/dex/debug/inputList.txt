@@ -1,0 +1,6 @@
+C:\Users\jmckee\AndroidStudioProjects\OnTapSTL\app\build\intermediates\classes\debug
+C:\Users\jmckee\AndroidStudioProjects\OnTapSTL\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-29187e5d6adc15b27e6e613d9b000db01d5b6f6b.jar
+C:\Users\jmckee\AndroidStudioProjects\OnTapSTL\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-511eeaf214457dee366b74885f7e9af5e8811562.jar
+C:\Users\jmckee\AndroidStudioProjects\OnTapSTL\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-af63fcd61fa9aaf7981bc7232d2cd3300215564b.jar
+C:\Users\jmckee\AndroidStudioProjects\OnTapSTL\app\build\intermediates\pre-dexed\debug\classes-94be55d9a3e633e94c0eff80c3490aba9c7f23f7.jar
+C:\Users\jmckee\AndroidStudioProjects\OnTapSTL\app\build\intermediates\pre-dexed\debug\Parse-1.8.2-a69a0f268c0f5c841263ba362ec1240a18320aea.jar
